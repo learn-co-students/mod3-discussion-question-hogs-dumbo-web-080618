@@ -17,6 +17,7 @@ function fadeIn(el) {
   }, FADEDURATION)
 }
 
+
 function transitionPage(el, groupOut, groupIn) {
   fadeAllOut(el, groupOut)
   setTimeout(() => {
